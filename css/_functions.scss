@@ -1,0 +1,7 @@
+@function calculate-width($width) {
+    @return $width * 2;
+  }
+  .element {
+    width: calculate-width(100px);
+  }
+  
